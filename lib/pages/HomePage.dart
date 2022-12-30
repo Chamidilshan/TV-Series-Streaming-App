@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tv_series_streaming_app/widgets/UpcomingWidget.dart';
+import 'package:tv_series_streaming_app/widgets/NewSeriesWidget.dart';
 
 class HomePage extends StatelessWidget {
 
@@ -68,10 +70,18 @@ class HomePage extends StatelessWidget {
                           hintStyle: TextStyle(color: Colors.white54),
                         ),
                       ),
-                    )
+                    ),
                   ],
                 ),
-              )
+              ),
+              SizedBox(
+                height: 30.0,
+              ),
+              UpcomingWidget(),
+              SizedBox(
+                height: 40.0,
+              ),
+              NewSeriesWidget(),
             ],
           ),
         ),
