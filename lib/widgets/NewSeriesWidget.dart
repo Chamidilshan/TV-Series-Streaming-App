@@ -36,7 +36,9 @@ class NewSeriesWidget extends StatelessWidget {
             children: [
               for(int i=1; i<6; i++)
               InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.pushNamed(context, 'seriesPage');
+                },
                 child: Container(
                   width: 190.0,
                   height: 300.0,

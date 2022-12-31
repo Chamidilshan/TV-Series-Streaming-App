@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'pages/HomePage.dart';
+import 'pages/CategoryPage.dart';
+import 'pages/SeriesPage.dart';
 
 void main() {
   runApp(MyApp());
@@ -31,7 +33,8 @@ class MyAppState extends State<MyApp> {
       ),
       routes: {
         "/": (context) => HomePage(),
-
+        "categoryPage": (context) => CategoryPage(),
+        "seriesPage": (context) => SeriesPage(),
       },
     );
   }

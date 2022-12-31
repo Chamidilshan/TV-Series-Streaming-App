@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tv_series_streaming_app/widgets/UpcomingWidget.dart';
 import 'package:tv_series_streaming_app/widgets/NewSeriesWidget.dart';
+import 'package:tv_series_streaming_app/widgets/CustomNavBar.dart';
 
 class HomePage extends StatelessWidget {
 
@@ -86,6 +87,7 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: CustomNavBar(),
     );
   }
 }
