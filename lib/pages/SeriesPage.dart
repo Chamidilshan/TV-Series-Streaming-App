@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tv_series_streaming_app/widgets/CustomNavBar.dart';
 import 'package:tv_series_streaming_app/widgets/SeriesPageButtons.dart';
+import 'package:tv_series_streaming_app/widgets/RecommendWidget.dart';
 
 class SeriesPage extends StatelessWidget {
 
@@ -60,7 +61,7 @@ class SeriesPage extends StatelessWidget {
                             borderRadius: BorderRadius.circular(20),
                             boxShadow: [
                               BoxShadow(
-                                color: Colors.red.withOpacity(0.5),
+                                color: Colors.black87.withOpacity(0.5),
                                 spreadRadius: 1.0,
                                 blurRadius: 8.0,
                               )
@@ -116,15 +117,20 @@ class SeriesPage extends StatelessWidget {
                         SizedBox(
                           height: 15.0,
                         ),
-                        Text('Wednesday',
+                        Text('While attending Nevermore Academy, Wednesday Addams attempts to master her emerging psychic ability, thwart a killing spree and solve the mystery that embroiled her parents 25 years ago.',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16.0,
                           ),
+                          textAlign: TextAlign.justify,
                         ),
                       ],
                     ),
                   ),
+                  SizedBox(
+                    height: 10.0,
+                  ),
+                  RecommendWidget(),
                 ],
               ),
             ),
