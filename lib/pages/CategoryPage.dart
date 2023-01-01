@@ -3,6 +3,8 @@ import 'package:tv_series_streaming_app/widgets/CustomNavBar.dart';
 
 class CategoryPage extends StatelessWidget {
 
+  List<String> myList = ['Romantic', 'Adventure', 'Scientific', 'Drama', 'Thriller', 'Horror', 'Comedy', 'Fiction'];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,7 +44,7 @@ class CategoryPage extends StatelessWidget {
               Padding(padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 15),
                 child: Column(
                   children: [
-                    for(int i=1; i<9; i++)
+                    for(int i=0; i<8; i++)
                     Padding(padding: EdgeInsets.symmetric(vertical: 10.0),
                       child: Row(
                         children: [
@@ -58,7 +60,7 @@ class CategoryPage extends StatelessWidget {
                           SizedBox(
                             width: 10.0,
                           ),
-                          Text('Category',
+                          Text(myList[i],
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 22,

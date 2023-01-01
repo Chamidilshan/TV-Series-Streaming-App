@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 
 class NewSeriesWidget extends StatelessWidget {
 
+  List<String> seriesList = ['Wednesday', 'The Witcher', 'Emily in the Paris', 'Treason', 'The White Lotus'];
+  List<String> catList = ['Adventure', 'Thriller', 'Romantic', 'Scientific', 'Drama'];
+  List<String> ratList = ['8.5', '8.7', '7.4','7.8', '8.9'];
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -75,7 +79,7 @@ class NewSeriesWidget extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Wednesday',
+                            Text(seriesList[i-1],
                               style: TextStyle(
                                 color: Colors.white54,
                                 fontSize: 21.0,
@@ -85,7 +89,7 @@ class NewSeriesWidget extends StatelessWidget {
                             SizedBox(
                               height: 5.0,
                             ),
-                            Text('Action/Adventure',
+                            Text(catList[i-1],
                               style: TextStyle(
                                 color: Colors.white54,
                               ),
@@ -101,7 +105,7 @@ class NewSeriesWidget extends StatelessWidget {
                                 SizedBox(
                                   width: 5.0,
                                 ),
-                                Text('8.5',
+                                Text(ratList[i-1],
                                 style: TextStyle(
                                   color: Colors.white54,
                                   fontSize: 16.0,
