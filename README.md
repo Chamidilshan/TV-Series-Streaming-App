@@ -1,4 +1,4 @@
-# tv_series_streaming_app
+# TV Series Streaming App
 
 A new Flutter project.
 
