@@ -1,6 +1,22 @@
-# tv_series_streaming_app
+# TV Series Streaming App
 
-A new Flutter project.
+A flutter app to watch and download TV Series easily
+
+## Authors
+
+- [@Chamidilshan](https://www.github.com/Chamidilshan)
+
+
+## 🔗 Links
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/saxa58)
+
+## Limitations
+Only provided UI of the app for first release.
+With more working features app will be released.
+
+## Demo
+![Screen Recording (1-2-2023 12-03-14 PM)](https://user-images.githubusercontent.com/89196733/210201041-448f1a52-de7f-45b4-b8b8-5e46573a00df.gif)
+
 
 ## Getting Started
 
